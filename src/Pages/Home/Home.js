@@ -6,7 +6,6 @@ import TopPart from './TopPart';
 const Home = () => {
     return (
         <div>
-            <h1>This is home page</h1>
             <TopPart></TopPart>
             <MiddlePart></MiddlePart>
             <LastPart></LastPart>
