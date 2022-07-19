@@ -1,4 +1,15 @@
 .navbar-background {
-    background-image: linear-gradient(#d02a45, #d35b74);
+    background-image: linear-gradient(#d01d3b, #d3617a);
     color: blue;
+}
+
+.nav-text {
+    color: white;
+}
+
+.nav-text:hover {
+    color: yellow;
+    font-weight: 700;
+    transition: 0.5s;
+    border-bottom: 4px solid seagreen;
 }

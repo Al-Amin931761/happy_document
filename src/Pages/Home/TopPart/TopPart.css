@@ -1,0 +1,28 @@
+.left-part {
+    border: 1px solid #ccc;
+    border-radius: 8px;
+}
+
+.game-nav {
+    background-image: linear-gradient(#fff, #f8f8f8, #e8e8e8, #f1eff0);
+    color: black;
+}
+
+.game-nav:hover {
+    background-image: linear-gradient(#ed9774, #e98b67, #db683c, #d75e31);
+}
+
+.game-nav-link {
+    color: #000;
+    text-decoration: none;
+}
+
+.game-nav-link:hover {
+    color: white;
+}
+
+.middle-image img {
+    border-radius: 8px;
+    height: 100%;
+    width: 100%;
+}

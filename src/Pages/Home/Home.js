@@ -1,7 +1,7 @@
 import React from 'react';
 import LastPart from './LastPart';
 import MiddlePart from './MiddlePart';
-import TopPart from './TopPart';
+import TopPart from './TopPart/TopPart';
 
 const Home = () => {
     return (
