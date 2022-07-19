@@ -1,6 +1,6 @@
 import React from 'react';
 import LastPart from './LastPart';
-import MiddlePart from './MiddlePart';
+import MiddlePart from './MiddlePart/MiddlePart/MiddlePart';
 import TopPart from './TopPart/TopPart';
 
 const Home = () => {

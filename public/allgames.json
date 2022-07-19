@@ -1,0 +1,20 @@
+[
+    {
+        "_id": 1,
+        "image": "https://i.ibb.co/crFQCHr/img-4.jpg",
+        "text": "Three Kingdoms theme horizontal RPG online game, rich general system",
+        "genre": "Role Playing",
+        "popularity": 470921,
+        "button1": "choose clothes",
+        "button2": "enter the game"
+    },
+    {
+        "_id": 2,
+        "image": "https://i.ibb.co/8xHmsfv/img-5.jpg",
+        "text": "A CD that does not build a main city, does not take up resources, and fights throughout the process",
+        "genre": "Type: Conquest strategy",
+        "popularity": 8745221,
+        "button1": "choose clothes",
+        "button2": "enter the game"
+    }
+]
