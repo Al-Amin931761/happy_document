@@ -13,10 +13,11 @@
 
 .btn1 {
     border: 1px solid #c7c9cf;
-    padding: 5px 15px;
+    padding: 2px 4px;
     border-radius: 5px;
     color: #333;
     font-weight: 700;
+    font-size: 13px;
 }
 
 .btn2 {
@@ -26,5 +27,6 @@
     border: 1px solid #326598;
     margin-left: 10px;
     border-radius: 5px;
-    padding: 5px 15px;
+    padding: 2px 4px;
+    font-size: 13px;
 }

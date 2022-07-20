@@ -1,5 +1,6 @@
 import React from 'react';
 import './Game.css';
+import { Link } from 'react-router-dom';
 
 const Game = ({ data }) => {
     const { image, text, genre, popularity, button1, button2 } = data;
@@ -12,8 +13,8 @@ const Game = ({ data }) => {
                 <p>{text}</p>
                 <p><b>Genre:</b> {genre}</p>
                 <p><b>Game popularity: </b>{popularity}</p>
-                <button className='btn1'>{button1}</button>
-                <button className='btn2'>{button2}</button>
+                <Link to='#' className='btn1 text-decoration-none text-black'>{button1}</Link>
+                <Link to='#' className='btn2 text-decoration-none text-white'>{button2}</Link>
             </div>
         </section>
     );

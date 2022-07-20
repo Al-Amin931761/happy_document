@@ -10,7 +10,7 @@ import image6 from '../../../images/sub-7.gif';
 import image7 from '../../../images/sub-8.gif';
 import { MdOutlineKeyboardArrowRight } from 'react-icons/md';
 import { Link } from 'react-router-dom';
-import { Button } from 'react-bootstrap';
+import Login from '../../Login/Login';
 
 
 const TopPart = () => {
@@ -54,28 +54,19 @@ const TopPart = () => {
             </div>
 
 
-            <div className='col-lg-6 col-md-12 col-sm-12 middle-image mt-4'>
+            <div style={{ position: 'relative' }} className='col-lg-6 col-md-12 col-sm-12 middle-image mt-4'>
                 <img src={image} alt=''></img>
-                {/* <ul style={{ position: 'absolute', bottom: '100px', right: '30px' }}>
-                    <Link to='#'>1</Link>
-                    <Link to='#'>2</Link>
-                    <Link to='#'>3</Link>
-                    <Link to='#'>4</Link>
-                </ul> */}
+                <ul style={{ position: 'absolute', color: 'tomato', bottom: "0px", right: '70px' }}>
+                    <Link className='text-decoration-none fs-2 text-center ms-4 text-white' to='#'><span id='one-color'>1</span></Link>
+                    <Link className='text-decoration-none fs-2 text-center ms-4 text-black' to='#'><span className='rest-numbers'>2</span></Link>
+                    <Link className='text-decoration-none fs-2 text-center ms-4 text-black' to='#'><span className='rest-numbers'>3</span></Link>
+                    <Link className='text-decoration-none fs-2 text-center ms-4 text-black' to='#'><span className='rest-numbers'>4</span></Link>
+                </ul>
             </div>
 
 
-            <div className='col-lg-3 col-md-12 col-sm-12 border rounded p-1 mt-4'>
-                <form className='mt-5 mb-5'>
-                    <h4 className='fw-bold'>Happy net user login</h4>
-                    <p>Account: <input style={{ width: '76%', marginLeft: '9px' }} type="text" placeholder='six characters of letters, numbers'></input></p>
-                    <p>Password: <input style={{ width: '76%' }} type="password" placeholder='four digits'></input></p>
-                    <Button className='d-block w-25 mx-auto border border-success' variant="danger" type='submit'>Log in</Button>
-                    <div className='d-flex justify-content-evenly mt-3'>
-                        <a className='text-decoration-none' href="https://google.com">Sign up now</a>
-                        <a className='text-decoration-none' href="https://google.com">Forgot Password</a>
-                    </div>
-                </form>
+            <div style={{ backgroundColor: 'rgba(243, 243, 243, 0.46)', border: '1px solid #ccc', borderRadius: '8px' }} className='col-lg-3 col-md-12 col-sm-12 p-1 mt-4'>
+                <Login></Login>
             </div>
         </section >
     );

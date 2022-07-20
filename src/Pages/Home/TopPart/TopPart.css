@@ -26,3 +26,17 @@
     height: 100%;
     width: 100%;
 }
+
+#one-color {
+    background-color: tomato;
+    border-radius: 50%;
+    display: inline-block;
+    width: 35px;
+}
+
+.rest-numbers {
+    background-color: seagreen;
+    border-radius: 50%;
+    display: inline-block;
+    width: 35px;
+}

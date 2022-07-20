@@ -1,0 +1,66 @@
+[
+    {
+        "_id": 1,
+        "image": "https://i.ibb.co/3FPJ0rF/img-6.jpg",
+        "popularity": 1765314,
+        "status": "Area 22 opens",
+        "button1": "choose clothes",
+        "button2": "enter the game"
+    },
+    {
+        "_id": 2,
+        "image": "https://i.ibb.co/V3g4NfN/img-7.jpg",
+        "popularity": 1245814,
+        "status": "Area 23 opens",
+        "button1": "choose clothes",
+        "button2": "enter the game"
+    },
+    {
+        "_id": 3,
+        "image": "https://i.ibb.co/wcZVbwX/img-8.jpg",
+        "popularity": 1232158,
+        "status": "Area 25 opens",
+        "button1": "choose clothes",
+        "button2": "enter the game"
+    },
+    {
+        "_id": 4,
+        "image": "https://i.ibb.co/gRNdtCJ/img-9.jpg",
+        "popularity": 123745,
+        "status": "Area 18 opens",
+        "button1": "choose clothes",
+        "button2": "enter the game"
+    },
+    {
+        "_id": 5,
+        "image": "https://i.ibb.co/W2gsgp4/img-10.jpg",
+        "popularity": 178501,
+        "status": "hot open",
+        "button1": "choose clothes",
+        "button2": "enter the game"
+    },
+    {
+        "_id": 6,
+        "image": "https://i.ibb.co/JrBPDST/img-11.jpg",
+        "popularity": 983014,
+        "status": "2 servers open",
+        "button1": "choose clothes",
+        "button2": "enter the game"
+    },
+    {
+        "_id": 7,
+        "image": "https://i.ibb.co/yPnMxTm/img-12.jpg",
+        "popularity": 745214,
+        "status": "4 servers open",
+        "button1": "choose clothes",
+        "button2": "enter the game"
+    },
+    {
+        "_id": 8,
+        "image": "https://i.ibb.co/zH6XVYR/img-13.jpg",
+        "popularity": 654814,
+        "status": "hot open",
+        "button1": "choose clothes",
+        "button2": "enter the game"
+    }
+]
