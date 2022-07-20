@@ -16,7 +16,7 @@ import Login from '../../Login/Login';
 const TopPart = () => {
     return (
         <section className='row ms-4 me-4'>
-            <div className='col-lg-3 col-md-12 col-sm-12 left-part mt-4'>
+            <div className='col-3 left-part mt-4'>
                 <div className='row game-nav pt-2'>
                     <Link className='col-10 game-nav-link' to='#'><img src={image1} alt=''></img> conquer the quartet</Link>
                     <p className='col-2 text-end'><MdOutlineKeyboardArrowRight /></p>
@@ -54,7 +54,7 @@ const TopPart = () => {
             </div>
 
 
-            <div style={{ position: 'relative' }} className='col-lg-6 col-md-12 col-sm-12 middle-image mt-4'>
+            <div style={{ position: 'relative' }} className='col-6 middle-image mt-4'>
                 <img src={image} alt=''></img>
                 <ul style={{ position: 'absolute', color: 'tomato', bottom: "0px", right: '70px' }}>
                     <Link className='text-decoration-none fs-2 text-center ms-4 text-white' to='#'><span id='one-color'>1</span></Link>
@@ -65,7 +65,7 @@ const TopPart = () => {
             </div>
 
 
-            <div style={{ backgroundColor: 'rgba(243, 243, 243, 0.46)', border: '1px solid #ccc', borderRadius: '8px' }} className='col-lg-3 col-md-12 col-sm-12 p-1 mt-4'>
+            <div style={{ backgroundColor: 'rgba(243, 243, 243, 0.46)', border: '1px solid #ccc', borderRadius: '8px' }} className='col-3 p-1 mt-4'>
                 <Login></Login>
             </div>
         </section >

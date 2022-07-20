@@ -5,8 +5,6 @@ import Nav from 'react-bootstrap/Nav';
 import Navbar from 'react-bootstrap/Navbar';
 import gameLogo from '../../../images/gameLogo.png';
 
-
-
 const Header = () => {
     return (
         <div>
